@@ -5,7 +5,7 @@ conf = {
     'mac_prefix' => '080027027',
     'box_name' => 'precise',
     'box_url' => 'http://c479942.r42.cf2.rackcdn.com/precise64.box',
-    'allocate_memory' => 1024,
+    'allocate_memory' => 2048,
     'cache_dir' => 'cache/',
     'ssh_dir' => '~/.ssh/',
 }
@@ -27,6 +27,7 @@ end
 
 Vagrant::Config.run do |config|
 
+  config.vm.host_name = ENV['VAGRANT_HOSTNAME'] || "vagrant"
   config.vm.box = conf['box_name']
   config.vm.box_url = conf['box_url']
 
