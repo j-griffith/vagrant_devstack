@@ -1,9 +1,9 @@
 [submodule "cookbooks/devstack"]
 	path = cookbooks/devstack
-	url = git://github.com/osops/devstack.git
+	url = git://github.com/j-griffith/devstack.git
 [submodule "cookbooks/vagrant-openstack"]
 	path = cookbooks/vagrant-openstack
-	url = git://github.com/osops/vagrant-openstack.git
+	url = git://github.com/j-griffith/vagrant-openstack.git
 [submodule "cookbooks/apt"]
 	path = cookbooks/apt
-	url = git://github.com/opscode-cookbooks/apt.git
+	url = git://github.com/j-griffith/apt.git
